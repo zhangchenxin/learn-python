@@ -46,4 +46,4 @@ def doit(num):
         print("this is {} time".format(i))
 '''
 t = timeit.timeit(stmt=s,setup= s+"num=3",number=10)
-print(t)
+print(t）
