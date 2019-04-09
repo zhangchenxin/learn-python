@@ -3,5 +3,6 @@
 def mulTen(n):
     return n *10
 l1 =[i for i in range(10)]
-l2 =map(l1,mulTen)
-print(l2) 
+l2 =map(mulTen,l1)
+for i in l2:
+    print(i)
